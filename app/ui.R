@@ -1,8 +1,6 @@
 hook = "Don't waste your time listening to customer service scripts. Find the numbers to press to get what you need."
 
-r1 = fluidRow(
-  column(12, h1("Service Flow"), p(hook), br(), align = "center")
-  )
+r1 = fluidRow(column(12, h1("Service Flow"), p(hook), br(), align = "center"))
 
 r2 = fluidRow(
   column(
